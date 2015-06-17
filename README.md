@@ -1,0 +1,2 @@
+# AndroidDevNotes
+Things about Android
