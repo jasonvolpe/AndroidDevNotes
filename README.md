@@ -5,6 +5,10 @@
 ### Icons
 * https://www.google.com/design/icons/
 
+### Dependencies
+
+* [Support Library](http://developer.android.com/tools/support-library/features.html)
+    * Design ```compile "com.android.support:design:22.2.0"```
 
 ### Theme
 
@@ -24,7 +28,11 @@
     <!--   darker variant for the status bar and contextual app bars -->
     <item name="colorPrimaryDark">@color/primary_dark</item>
     
-    <!--   theme UI controls like checkboxes and text fields -->
+    <!-- colorAccent is used as the default value for colorControlActivated,
+         which is used to tint widgets and text fields -->
     <item name="colorAccent">@color/accent</item>
+    
+    <!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight, and colorSwitchThumbNormal. -->
 </style>
 ```
