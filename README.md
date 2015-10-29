@@ -36,3 +36,6 @@
          colorControlHighlight, and colorSwitchThumbNormal. -->
 </style>
 ```
+
+## Security
+* [Android Secure Coding Standard by CMU](https://www.securecoding.cert.org/confluence/display/android/Android+Secure+Coding+Standard)
